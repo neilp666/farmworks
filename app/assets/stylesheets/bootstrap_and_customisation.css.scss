@@ -2,12 +2,17 @@
 
 $navbar-height:                                        75px;
 $font-family-sans-serif:                'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$navbar-inverse-bg: #27AE60; 
+$navbar-inverse-bg: #962D22; 
 $navbar-inverse-link-color: white;
 
 $brand-primary: #c0392b;
 
 @import 'bootstrap';
+
+body {
+  background-color: #F5F5F1;
+  color: #333333;
+  }
 
   .center {
      text-align: center;
@@ -21,4 +26,21 @@ $brand-primary: #c0392b;
 
 .navbar-nav > li > a {
   font-size: 18px;
+}
+
+
+.col-md-3:nth-child(4n+1) {
+  clear: left;
+}
+
+.col-md-6 {
+  h3 {
+    font-size: 45px;
+  }
+  h5 {
+    font-size: 25px;
+  }
+  p {
+    font-size: 18px;
+  }
 }
